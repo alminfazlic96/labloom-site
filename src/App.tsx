@@ -194,6 +194,7 @@ export default function LaBloomCaffeTemplate() {
     </button>
 
   </div>
+</section>
 
       {/* WHY US */}
       <section className="py-24 px-6 md:px-20 bg-zinc-950">
