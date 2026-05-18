@@ -1,40 +1,6 @@
-import { useEffect, useRef, useState } from "react";
 import type { ReactNode } from "react";
 
-function Reveal({ children, direction = "up" }: { children: ReactNode; direction?: "up" | "left" | "right" }) {
-  const ref = useRef<HTMLDivElement | null>(null);
-  const [visible, setVisible] = useState(false);
 
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) setVisible(true);
-      },
-      { threshold: 0.15 }
-    );
-
-    if (ref.current) observer.observe(ref.current);
-
-    return () => observer.disconnect();
-  }, []);
-
-  const base = "transition-all duration-1000 ease-out";
-  const hidden =
-    direction === "up"
-      ? "opacity-0 translate-y-10"
-      : direction === "left"
-      ? "opacity-0 -translate-x-10"
-      : "opacity-0 translate-x-10";
-
-  return (
-    <div
-      ref={ref}
-      className={`${base} ${visible ? "opacity-100 translate-x-0 translate-y-0" : hidden}`}
-    >
-      {children}
-    </div>
-  );
-}
 
 export default function LaBloomCaffeTemplate() {
   return (
