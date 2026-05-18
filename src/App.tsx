@@ -1,5 +1,5 @@
-import { useEffect, useRef, useState, ReactNode } from "react";
-
+import { useEffect, useRef, useState } from "react";
+import type { ReactNode } from "react";
 
 function Reveal({ children, direction = "up" }: { children: ReactNode; direction?: "up" | "left" | "right" }) {
   const ref = useRef<HTMLDivElement | null>(null);
