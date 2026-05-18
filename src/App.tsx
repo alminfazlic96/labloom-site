@@ -1,8 +1,8 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, ReactNode } from "react";
 
 
-function Reveal({ children, direction = "up" }) {
-  const ref = useRef(null);
+function Reveal({ children, direction = "up" }: { children: ReactNode; direction?: "up" | "left" | "right" }) {
+  const ref = useRef<HTMLDivElement | null>(null);
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
