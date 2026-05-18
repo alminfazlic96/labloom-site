@@ -194,18 +194,6 @@ export default function LaBloomCaffeTemplate() {
     </button>
 
   </div>
-</section>
-                 <button
-              onClick={() => window.open('https://instagram.com/labloomcaffe', '_blank')}
-              className="bg-yellow-400 text-black p-4 rounded-2xl font-bold text-lg hover:scale-[1.02] transition"
-            >
-              Rezerviši
-            </button>
-          </div>
-        </div>
-      </section>
-
-      
 
       {/* WHY US */}
       <section className="py-24 px-6 md:px-20 bg-zinc-950">
