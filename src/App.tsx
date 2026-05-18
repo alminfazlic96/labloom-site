@@ -22,7 +22,7 @@ export default function LaBloomCaffeTemplate() {
 
         <div className="absolute bottom-10 right-10 z-20 hidden md:block bg-black/60 backdrop-blur-md border border-yellow-400/30 px-6 py-4 rounded-3xl">
           <p className="text-yellow-400 font-semibold">★★★★★</p>
-          <p className="text-sm text-gray-300 mt-1">Omiljena bašta u Novom Pazaru</p>
+          <p className="text-sm text-gray-300 mt-1">Omiljena terasa u Novom Pazaru</p>
         </div>
 
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-6">
