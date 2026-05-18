@@ -27,11 +27,11 @@ export default function LaBloomCaffeTemplate() {
 
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-6">
           <h1 className="text-6xl md:text-8xl font-bold tracking-widest text-yellow-400">
-            LaBloom
+            La Bloom
           </h1>
 
           <p className="mt-6 text-xl md:text-2xl text-gray-300 max-w-2xl">
-            Bašta • Piće • Nargile • Muzika
+            Terasa • Piće • Nargile • Muzika
           </p>
 
           <div className="mt-10 flex gap-4 flex-wrap justify-center">
@@ -93,7 +93,7 @@ export default function LaBloomCaffeTemplate() {
             <h3 className="text-3xl font-bold mb-8 text-yellow-400">Nargile</h3>
             <div className="space-y-4 text-lg text-gray-300 mb-10">
               <div className="flex justify-between"><span>Klasik</span><span>500</span></div>
-              <div className="flex justify-between"><span>Premium ukus</span><span>600</span></div>
+              <div className="flex justify-between"><span>Premium ukus</span><span>700</span></div>
             </div>
 
             <h3 className="text-3xl font-bold mb-8 text-yellow-400">Sokovi</h3>
