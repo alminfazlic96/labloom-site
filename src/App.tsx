@@ -1,7 +1,3 @@
-import { useEffect, useRef, useState } from "react";
-
-
-
 export default function LaBloomCaffeTemplate() {
   return (
     <div className="min-h-screen bg-black text-white font-[Poppins] antialiased relative overflow-hidden">
