@@ -175,34 +175,9 @@ export default function LaBloomCaffeTemplate() {
       </section>
 
       {/* RESERVATION */}
-      <section id="rezervacije" className="py-24 px-6 md:px-20 bg-black">
-        <div className="max-w-3xl mx-auto bg-zinc-900 rounded-3xl p-10 shadow-2xl">
-          <h2 className="text-5xl font-bold text-center text-yellow-400 mb-12">
-            Rezervacije
-          </h2>
+      <
 
-          <div className="grid gap-6">
-            <input
-              placeholder="Ime"
-              className="bg-zinc-800 p-4 rounded-2xl outline-none"
-            />
-
-            <input
-              placeholder="Telefon"
-              className="bg-zinc-800 p-4 rounded-2xl outline-none"
-            />
-
-            <input
-              placeholder="Datum"
-              className="bg-zinc-800 p-4 rounded-2xl outline-none"
-            />
-
-            <input
-              placeholder="Broj osoba"
-              className="bg-zinc-800 p-4 rounded-2xl outline-none"
-            />
-
-            <button
+           <button
               onClick={() => window.open('https://instagram.com/labloomcaffe', '_blank')}
               className="bg-yellow-400 text-black p-4 rounded-2xl font-bold text-lg hover:scale-[1.02] transition"
             >
