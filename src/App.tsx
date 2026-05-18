@@ -173,7 +173,28 @@ export default function LaBloomCaffeTemplate() {
           </div>
         </div>
       </section>
+      
+      {/* RESERVATION */}
+<section id="rezervacije" className="py-24 px-6 md:px-20 bg-black">
+  <div className="max-w-3xl mx-auto bg-zinc-900 rounded-3xl p-10 shadow-2xl text-center">
+    
+    <h2 className="text-5xl font-bold text-yellow-400 mb-6">
+      Rezervacije
+    </h2>
 
+    <p className="text-gray-400 text-lg mb-10">
+      Rezervišite svoje mesto brzo i jednostavno preko Instagrama.
+    </p>
+
+    <button
+      onClick={() => window.open('https://instagram.com/labloomcaffe', '_blank')}
+      className="bg-yellow-400 text-black px-10 py-4 rounded-2xl font-bold text-lg hover:scale-[1.02] transition"
+    >
+      Rezerviši
+    </button>
+
+  </div>
+</section>
                  <button
               onClick={() => window.open('https://instagram.com/labloomcaffe', '_blank')}
               className="bg-yellow-400 text-black p-4 rounded-2xl font-bold text-lg hover:scale-[1.02] transition"
