@@ -125,7 +125,7 @@ className="w-10 h-10 object-contain"
 
 {[
 ['Klasik','500','/brands/nargila.png'],
-['Premium ukus','600','/brands/premium.png']
+['Premium ukus','700','/brands/premium.png']
 ].map(([name,price,image])=>(
 
 <div
