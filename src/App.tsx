@@ -99,11 +99,11 @@ export default function LaBloomCaffeTemplate() {
             <div className="space-y-4 text-lg text-gray-300">
 
 {[
- ['Coca-Cola','200','/brands/coca-cola.png'],
- ['Coca-Cola Zero','200','/brands/coca-cola.png'],
+ ['Coca-Cola','200','/brands/cocacola.png'],
+ ['Coca-Cola Zero','200','/brands/cocacola.png'],
  ['Fanta','200','/brands/fanta.png'],
  ['Sprite','200','/brands/sprite.png'],
- ['Schweppes','200','/brands/schweppes.png'],
+ ['Schweppes','200','/brands/schweps.png'],
  ['Guarana','200','/brands/guarana.png'],
  ['Bravo','200','/brands/bravo.png'],
  ['Red Bull','350','/brands/redbull.png'],
