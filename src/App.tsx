@@ -61,7 +61,7 @@ export default function LaBloomCaffeTemplate() {
             </h2>
 
             <p className="text-gray-300 text-lg leading-8">
-              LaBloom Caffe je moderno mesto za izlazak, opuštanje i uživanje u vrhunskim pićima i premium nargilama. Prostrana bašta, prijatna atmosfera i dobra muzika čine LaBloom jednim od omiljenih mesta za izlazak u Novom Pazaru.
+              LaBloom Caffe je moderno mesto za izlazak, opuštanje i uživanje u vrhunskim pićima i premium nargilama. Prostrana terasa, prijatna atmosfera i dobra muzika čine LaBloom jednim od omiljenih mesta za izlazak u Novom Pazaru.
             </p>
           </div>
 
@@ -309,8 +309,8 @@ className="w-10 h-10 object-contain"
 
         <div className="grid md:grid-cols-3 gap-8">
           <div className="bg-black border border-zinc-800 rounded-3xl p-8 text-center shadow-xl hover:scale-105 transition">
-            <h3 className="text-2xl font-bold text-yellow-400 mb-3">Bašta</h3>
-            <p className="text-gray-400">Prostrana i moderna bašta za dnevni i noćni provod.</p>
+            <h3 className="text-2xl font-bold text-yellow-400 mb-3">Terasa</h3>
+            <p className="text-gray-400">Prostrana i moderna terasa za dnevni i noćni provod.</p>
           </div>
 
           <div className="bg-black border border-zinc-800 rounded-3xl p-8 text-center shadow-xl hover:scale-105 transition">
@@ -343,8 +343,10 @@ className="w-10 h-10 object-contain"
 
             <div className="space-y-3 text-gray-400">
               <p>Novi Pazar</p>
-              <p>+381 xx xxx xxxx</p>
-              <p>@labloomcaffe</p>
+              <p>@la_bloom2026</p>
+
+          
+              
             </div>
           </div>
 
