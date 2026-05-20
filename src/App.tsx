@@ -117,6 +117,9 @@ className="w-10 h-10 object-contain"
 ))}
 
 </div>
+<h3 className="text-3xl font-bold mb-8 text-yellow-400">
+💨 Nargile
+</h3>
 
             <div className="space-y-4 text-lg text-gray-300 mb-10">
 
