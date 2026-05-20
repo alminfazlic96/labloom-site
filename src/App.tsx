@@ -148,16 +148,20 @@ export default function LaBloomCaffeTemplate() {
 
             <div className="space-y-4 text-lg text-gray-300">
   {[
-    ['Malinada', '200'],
-    ['Ceđena narandža', '300'],
-    ['Ceđeni mix', '330']
-  ].map(([name, price]) => (
+ ['Malinada', '200', '/brands/malinada.png'],
+ ['Ceđena narandža', '300', '/brands/narandza.png'],
+ ['Ceđeni mix', '330', '/brands/mix.png']
+].map(([name, price, image]) => (
     <div
       key={name}
       className="flex justify-between items-center hover:bg-zinc-800/70 px-4 py-3 rounded-2xl transition duration-300 hover:scale-[1.02] group"
     >
       <div className="flex items-center gap-3">
-        <div className="w-3 h-3 rounded-full bg-yellow-400 group-hover:scale-125 transition" />
+        <img
+  src={image}
+  alt={name}
+  className="w-10 h-10 object-contain"
+/>
         <span>{name}</span>
       </div>
 
