@@ -97,36 +97,49 @@ export default function LaBloomCaffeTemplate() {
 
             <h3 className="text-3xl font-bold mb-8 text-yellow-400">Sokovi</h3>
             <div className="space-y-4 text-lg text-gray-300">
-              <div className="flex justify-between items-center"><span className="flex items-center gap-3"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="12" fill="#ef4444"/><path d="M7 12h10" stroke="white" strokeWidth="2" strokeLinecap="round"/></svg> Coca-Cola</span><span>200</span></div>
 
-              <div className="flex justify-between items-center"><span className="flex items-center gap-3"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="12" fill="#e5e7eb"/><path d="M7 12h10" stroke="black" strokeWidth="2" strokeLinecap="round"/></svg> Coca-Cola Zero</span><span>200</span></div>
+{[
+ ['Coca-Cola','200','/brands/coca-cola.png'],
+ ['Coca-Cola Zero','200','/brands/coca-cola.png'],
+ ['Fanta','200','/brands/fanta.png'],
+ ['Sprite','200','/brands/sprite.png'],
+ ['Schweppes','200','/brands/schweppes.png'],
+ ['Guarana','200','/brands/guarana.png'],
+ ['Bravo','200','/brands/bravo.png'],
+ ['Red Bull','350','/brands/redbull.png'],
+ ['Rosa','150','/brands/rosa.png']
+].map(([name,price,image]) => (
 
-              <div className="flex justify-between items-center"><span className="flex items-center gap-3"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="12" fill="#f97316"/><circle cx="12" cy="12" r="4" fill="white"/></svg> Fanta</span><span>200</span></div>
+<div
+ key={name}
+ className="flex justify-between items-center px-4 py-3 rounded-2xl hover:bg-zinc-800/70"
+>
 
-              <div className="flex justify-between items-center"><span className="flex items-center gap-3"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="12" fill="#22c55e"/><path d="M8 14c2-5 6-5 8 0" stroke="white" strokeWidth="2" strokeLinecap="round"/></svg> Sprite</span><span>200</span></div>
+<div className="flex items-center gap-4">
 
-              <div className="flex justify-between items-center"><span className="flex items-center gap-3"><svg width="22" height="22" viewBox="0 0 24 24"><rect width="24" height="24" rx="12" fill="#facc15"/></svg> Schweppes Bitter/Tangerine</span><span>200</span></div>
+<img
+ src={image}
+ alt={name}
+ className="w-10 h-10 object-contain"
+/>
 
-              <div className="flex justify-between items-center"><span className="flex items-center gap-3"><svg width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#fb923c"/><path d="M6 12h12" stroke="white" strokeWidth="2"/></svg> Sola Multivitamin</span><span>220</span></div>
-              <div className="flex justify-between items-center"><span className="flex items-center gap-3"><svg width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#38bdf8"/><path d="M8 8l8 8" stroke="white" strokeWidth="2"/></svg> Sola IceTea</span><span>220</span></div>
-              <div className="flex justify-between items-center"><span className="flex items-center gap-3"><svg width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#ec4899"/><circle cx="12" cy="12" r="3" fill="white"/></svg> Bravo [Svi Ukusi]</span><span>200</span></div>
-              <div className="flex justify-between items-center"><span className="flex items-center gap-3"><svg width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#a855f7"/><path d="M12 6v12" stroke="white" strokeWidth="2"/></svg> Ultra</span><span>200</span></div>
-              <div className="flex justify-between items-center"><span className="flex items-center gap-3"><svg width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#dc2626"/><path d="M7 12h10" stroke="white" strokeWidth="2"/></svg> Guarana</span><span>200</span></div>
-              <div className="flex justify-between items-center"><span className="flex items-center gap-3"><svg width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#f97316"/><path d="M8 16l8-8" stroke="white" strokeWidth="2"/></svg> Cockta</span><span>200</span></div>
+<span>{name}</span>
 
-              <div className="flex justify-between items-center"><span className="flex items-center gap-3"><svg width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#2563eb"/><path d="M7 16l5-8 5 8" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg> Red Bull</span><span>350</span></div>
+</div>
 
-              <div className="flex justify-between items-center"><span className="flex items-center gap-3"><svg width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#111827"/><path d="M6 6l12 12" stroke="white" strokeWidth="2"/></svg> 28 Black</span><span>280</span></div>
-              <div className="flex justify-between items-center"><span className="flex items-center gap-3"><svg width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#f8fafc"/><path d="M6 12h12" stroke="black" strokeWidth="2"/></svg> Moloko</span><span>280</span></div>
-              <div className="flex justify-between items-center"><span className="flex items-center gap-3"><svg width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#84cc16"/><path d="M8 10c2-2 6-2 8 0" stroke="white" strokeWidth="2"/></svg> Somersby</span><span>250</span></div>
-              <div className="flex justify-between items-center"><span className="flex items-center gap-3"><svg width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#38bdf8"/><path d="M12 6v12" stroke="white" strokeWidth="2"/></svg> Rosa</span><span>150</span></div>
-              <div className="flex justify-between items-center"><span className="flex items-center gap-3"><svg width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#94a3b8"/><circle cx="12" cy="12" r="4" fill="white"/></svg> Kisela voda</span><span>150</span></div>
-            </div>
-<h3 className="text-3xl font-bold mt-12 mb-8 text-yellow-400 flex items-center gap-3">
-  🍊 Ceđeni Sokovi
-</h3>
+<span className="text-yellow-400 font-bold">
+ {price}
+</span>
 
-<div className="space-y-4 text-lg text-gray-300">
+</div>
+
+))}
+
+</div>
+
+            <h3 className="text-3xl font-bold mt-10 mb-4 text-yellow-400">🍊 Ceđeni Sokovi</h3>
+
+            <div className="space-y-4 text-lg text-gray-300">
   {[
     ['Malinada', '200'],
     ['Ceđena narandža', '300'],
