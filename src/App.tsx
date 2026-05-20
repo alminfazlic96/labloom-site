@@ -118,11 +118,37 @@ className="w-10 h-10 object-contain"
 
 </div>
 
-            <h3 className="text-3xl font-bold mb-8 text-yellow-400">Nargile</h3>
             <div className="space-y-4 text-lg text-gray-300 mb-10">
-              <div className="flex justify-between"><span>Klasik</span><span>500</span></div>
-              <div className="flex justify-between"><span>Premium ukus</span><span>700</span></div>
-            </div>
+
+{[
+['Klasik','500','/brands/nargila.png'],
+['Premium ukus','600','/brands/premium.png']
+].map(([name,price,image])=>(
+
+<div
+key={name}
+className="flex justify-between items-center"
+>
+
+<div className="flex items-center gap-3">
+
+<img
+src={image}
+alt={name}
+className="w-10 h-10 object-contain"
+/>
+
+<span>{name}</span>
+
+</div>
+
+<span>{price}</span>
+
+</div>
+
+))}
+
+</div>
 
             <h3 className="text-3xl font-bold mb-8 text-yellow-400">Sokovi</h3>
             <div className="space-y-4 text-lg text-gray-300">
