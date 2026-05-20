@@ -80,14 +80,43 @@ export default function LaBloomCaffeTemplate() {
         <div className="grid md:grid-cols-2 gap-10">
           {/* LEFT */}
           <div className="bg-zinc-900 p-10 rounded-3xl shadow-xl">
-            <h3 className="text-3xl font-bold mb-8 text-yellow-400">Topli Napici</h3>
+            <h3 className="text-3xl font-bold mb-8 text-yellow-400">
+☕ Topli Napici
+</h3>
 
-            <div className="space-y-4 text-lg text-gray-300 mb-10">
-              <div className="flex justify-between"><span>Espresso</span><span>130</span></div>
-              <div className="flex justify-between"><span>Nescafe</span><span>170</span></div>              
-              <div className="flex justify-between"><span>Topla čokolada</span><span>200</span></div>
-              <div className="flex justify-between"><span>Čaj nana/kamilica/voćni</span><span>150</span></div>
-            </div>
+<div className="space-y-4 text-lg text-gray-300 mb-10">
+
+{[
+['Espresso','130','/brands/espresso.png'],
+['Nescafe','170','/brands/nescafe.png'],
+['Topla čokolada','200','/brands/cokolada.png'],
+['Čaj nana/kamilica/voćni','150','/brands/caj.png']
+].map(([name,price,image]) => (
+
+<div
+key={name}
+className="flex justify-between items-center"
+>
+
+<div className="flex items-center gap-3">
+
+<img
+src={image}
+alt={name}
+className="w-10 h-10 object-contain"
+/>
+
+<span>{name}</span>
+
+</div>
+
+<span>{price}</span>
+
+</div>
+
+))}
+
+</div>
 
             <h3 className="text-3xl font-bold mb-8 text-yellow-400">Nargile</h3>
             <div className="space-y-4 text-lg text-gray-300 mb-10">
@@ -234,7 +263,7 @@ export default function LaBloomCaffeTemplate() {
     </p>
 
     <button
-      onClick={() => window.open('https://instagram.com/labloomcaffe', '_blank')}
+      onClick={() => window.open('https://instagram.com/la_bloom2026', '_blank')}
       className="bg-yellow-400 text-black px-10 py-4 rounded-2xl font-bold text-lg hover:scale-[1.02] transition"
     >
       Rezerviši
