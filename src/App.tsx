@@ -84,8 +84,7 @@ export default function LaBloomCaffeTemplate() {
 
             <div className="space-y-4 text-lg text-gray-300 mb-10">
               <div className="flex justify-between"><span>Espresso</span><span>130</span></div>
-              <div className="flex justify-between"><span>Nescafe</span><span>170</span></div>
-              <div className="flex justify-between"><span>Turska kafa</span><span>120</span></div>
+              <div className="flex justify-between"><span>Nescafe</span><span>170</span></div>              
               <div className="flex justify-between"><span>Topla čokolada</span><span>200</span></div>
               <div className="flex justify-between"><span>Čaj nana/kamilica/voćni</span><span>150</span></div>
             </div>
@@ -110,7 +109,7 @@ export default function LaBloomCaffeTemplate() {
 
               <div className="flex justify-between items-center"><span className="flex items-center gap-3"><svg width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#fb923c"/><path d="M6 12h12" stroke="white" strokeWidth="2"/></svg> Sola Multivitamin</span><span>220</span></div>
               <div className="flex justify-between items-center"><span className="flex items-center gap-3"><svg width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#38bdf8"/><path d="M8 8l8 8" stroke="white" strokeWidth="2"/></svg> Sola IceTea</span><span>220</span></div>
-              <div className="flex justify-between items-center"><span className="flex items-center gap-3"><svg width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#ec4899"/><circle cx="12" cy="12" r="3" fill="white"/></svg> Bravo Jagoda/Breskva/Narandža/Borovnica/Jabuka</span><span>200</span></div>
+              <div className="flex justify-between items-center"><span className="flex items-center gap-3"><svg width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#ec4899"/><circle cx="12" cy="12" r="3" fill="white"/></svg> Bravo [Svi Ukusi]</span><span>200</span></div>
               <div className="flex justify-between items-center"><span className="flex items-center gap-3"><svg width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#a855f7"/><path d="M12 6v12" stroke="white" strokeWidth="2"/></svg> Ultra</span><span>200</span></div>
               <div className="flex justify-between items-center"><span className="flex items-center gap-3"><svg width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#dc2626"/><path d="M7 12h10" stroke="white" strokeWidth="2"/></svg> Guarana</span><span>200</span></div>
               <div className="flex justify-between items-center"><span className="flex items-center gap-3"><svg width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#f97316"/><path d="M8 16l8-8" stroke="white" strokeWidth="2"/></svg> Cockta</span><span>200</span></div>
@@ -123,7 +122,31 @@ export default function LaBloomCaffeTemplate() {
               <div className="flex justify-between items-center"><span className="flex items-center gap-3"><svg width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#38bdf8"/><path d="M12 6v12" stroke="white" strokeWidth="2"/></svg> Rosa</span><span>150</span></div>
               <div className="flex justify-between items-center"><span className="flex items-center gap-3"><svg width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#94a3b8"/><circle cx="12" cy="12" r="4" fill="white"/></svg> Kisela voda</span><span>150</span></div>
             </div>
+<h3 className="text-3xl font-bold mt-12 mb-8 text-yellow-400 flex items-center gap-3">
+  🍊 Ceđeni Sokovi
+</h3>
 
+<div className="space-y-4 text-lg text-gray-300">
+  {[
+    ['Malinada', '200'],
+    ['Ceđena narandža', '300'],
+    ['Ceđeni mix', '330']
+  ].map(([name, price]) => (
+    <div
+      key={name}
+      className="flex justify-between items-center hover:bg-zinc-800/70 px-4 py-3 rounded-2xl transition duration-300 hover:scale-[1.02] group"
+    >
+      <div className="flex items-center gap-3">
+        <div className="w-3 h-3 rounded-full bg-yellow-400 group-hover:scale-125 transition" />
+        <span>{name}</span>
+      </div>
+
+      <span className="text-yellow-400 font-bold">
+        {price}
+      </span>
+    </div>
+  ))}
+</div>
             <h3 className="text-3xl font-bold mt-10 mb-4 text-yellow-400">Sladoledi</h3>
             <p className="text-gray-400 mb-6">USKORO</p>
 
