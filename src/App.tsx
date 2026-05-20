@@ -99,15 +99,24 @@ export default function LaBloomCaffeTemplate() {
             <div className="space-y-4 text-lg text-gray-300">
 
 {[
- ['Coca-Cola','200','/brands/cocacola.png'],
- ['Coca-Cola Zero','200','/brands/cocacola.png'],
+ ['Coca-Cola','200','/brands/coca-cola.png'],
+ ['Coca-Cola Zero','200','/brands/coca-cola-zero.png'],
  ['Fanta','200','/brands/fanta.png'],
  ['Sprite','200','/brands/sprite.png'],
- ['Schweppes','200','/brands/schweps.png'],
+ ['Schweppes Bitter','200','/brands/schweppes-bitter.png'],
+ ['Schweppes Tangerine','200','/brands/schweppes-tangerine.png'],
+ ['Sola Multivitamin','220','/brands/sola-multivitamin.png'],
+ ['Sola IceTea','220','/brands/sola-icetea.png'],
+ ['Bravo (jagoda / breskva / narandza / borovnica / jabuka)','200','/brands/bravo.png'],
+ ['Ultra','200','/brands/ultra.png'],
  ['Guarana','200','/brands/guarana.png'],
- ['Bravo','200','/brands/bravo.png'],
+ ['Cockta','200','/brands/cockta.png'],
  ['Red Bull','350','/brands/redbull.png'],
- ['Rosa','150','/brands/rosa.png']
+ ['28 Black','280','/brands/28black.png'],
+ ['Moloko','280','/brands/moloko.png'],
+ ['Somersby','250','/brands/somersby.png'],
+ ['Rosa','150','/brands/rosa.png'],
+ ['Kisela','150','/brands/kisela.png']
 ].map(([name,price,image]) => (
 
 <div
