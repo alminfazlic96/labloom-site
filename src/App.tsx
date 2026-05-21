@@ -305,7 +305,7 @@ className="w-10 h-10 object-contain"
       {/* WHY US */}
       <section className="py-24 px-6 md:px-20 bg-zinc-950">
         <h2 className="text-5xl font-bold text-center text-yellow-400 mb-16">
-          Zašto LaBloom?
+          Zašto La Bloom?
         </h2>
 
         <div className="grid md:grid-cols-3 gap-8">
