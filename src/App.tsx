@@ -163,7 +163,7 @@ className="w-10 h-10 object-contain"
 ['Sprite','200','/brands/sprite.png'],
 ['Schweppes (Bitter / Tangerine)','200','/brands/schweps.png'],
 ['Sola (Multivitamin / Ice Tea)','220','/brands/sola.png'],
-['Bravo (jagoda / breskva / narandza / borovnica / jabuka)','200','/brands/bravo.png'],
+['Cube (jagoda / breskva /  borovnica / jabuka)','200','/brands/cube.png'],
 ['Ultra','200','/brands/ultra.png'],
 ['Guarana','200','/brands/guarana.png'],
 ['Cockta','200','/brands/cockta.png'],
