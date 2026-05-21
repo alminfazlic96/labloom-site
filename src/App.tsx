@@ -89,6 +89,7 @@ export default function LaBloomCaffeTemplate() {
 {[
 ['Espresso','130','/brands/espresso.png'],
 ['Nescafe','170','/brands/nescafe.png'],
+['Cappuccino','180','/brands/cappuccino.png'],
 ['Topla čokolada','200','/brands/cokolada.png'],
 ['Čaj nana/kamilica/voćni','150','/brands/caj.png']
 ].map(([name,price,image]) => (
@@ -159,7 +160,7 @@ className="w-10 h-10 object-contain"
 {[
  ['Coca-Cola','200','/brands/cocacola.png'],
 ['Coca-Cola Zero','200','/brands/cocacola.png'],
-['Fanta','200','/brands/fanta.png'],
+['Fanta (Orange/ Exotic)','200','/brands/fanta.png'],
 ['Sprite','200','/brands/sprite.png'],
 ['Schweppes (Bitter / Tangerine)','200','/brands/schweps.png'],
 ['Sola (Multivitamin / Ice Tea)','220','/brands/sola.png'],
@@ -170,7 +171,7 @@ className="w-10 h-10 object-contain"
 ['Red Bull','350','/brands/redbull.png'],
 ['28 Black','280','/brands/28black.png'],
 ['Moloko','280','/brands/moloko.png'],
-['Somersby','250','/brands/somersby.png'],
+['Somersby (Jagoda / Zova)','250','/brands/somersby.png'],
 ['Rosa','150','/brands/rosa.png'],
 ['Kisela','150','/brands/kisela.png'],
 ].map(([name,price,image]) => (
