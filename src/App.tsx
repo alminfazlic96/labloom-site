@@ -331,7 +331,7 @@ className="w-10 h-10 object-contain"
         <div className="grid md:grid-cols-3 gap-10">
           <div>
             <h3 className="text-2xl font-bold text-yellow-400 mb-4">
-              LaBloom
+              La Bloom
             </h3>
 
             <p className="text-gray-400 leading-7">
