@@ -3,9 +3,9 @@ export default function LaBloomCaffeTemplate() {
     <div className="min-h-screen bg-black text-white font-[Poppins] antialiased relative overflow-hidden">
   {/* ambient background effects */}
   <div className="pointer-events-none absolute inset-0">
-    <div className="absolute -top-40 left-1/2 w-[600px] h-[600px] bg-yellow-400/10 blur-[120px] animate-pulse" />
-    <div className="absolute bottom-[-200px] right-[-200px] w-[500px] h-[500px] bg-amber-500/10 blur-[140px] animate-pulse" />
-    <div className="absolute inset-0 opacity-[0.08] bg-[radial-gradient(circle_at_center,_white,_transparent_60%)] animate-pulse" />
+    <div className="absolute -top-40 left-1/2 w-[600px] h-[600px] bg-yellow-400/10 blur-[120px] " />
+    <div className="absolute bottom-[-200px] right-[-200px] w-[500px] h-[500px] bg-amber-500/10 blur-[140px] " />
+    <div className="absolute inset-0 opacity-[0.08] bg-[radial-gradient(circle_at_center,_white,_transparent_60%)] " />
   </div>
       {/* HERO */}
       <section
