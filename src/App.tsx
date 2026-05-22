@@ -16,7 +16,7 @@ export default function LaBloomCaffeTemplate() {
       >
         <div className="absolute inset-0 bg-black/70" />
 
-        <div className="absolute top-6 left-6 z-20 bg-yellow-400 text-black px-4 py-2 rounded-full font-bold shadow-xl animate-pulse">
+        <div className="absolute top-6 left-6 z-20 bg-yellow-400 text-black px-4 py-2 rounded-full font-bold shadow-xl">
           OPEN DAILY
         </div>
 
