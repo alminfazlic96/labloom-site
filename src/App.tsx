@@ -91,7 +91,7 @@ export default function LaBloomCaffeTemplate() {
 ['Nescafe','170','/brands/nescafe.png'],
 ['Cappuccino','180','/brands/cappuccino.png'],
 ['Topla čokolada','200','/brands/cokolada.png'],
-['Čaj nana/kamilica/voćni','150','/brands/caj.png']
+['Čaj (nana/kamilica/voćni)','150','/brands/caj.png']
 ].map(([name,price,image]) => (
 
 <div
