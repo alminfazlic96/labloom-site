@@ -233,8 +233,49 @@ className="w-10 h-10 object-contain"
             <h3 className="text-3xl font-bold mt-10 mb-4 text-yellow-400">Sladoledi</h3>
             <p className="text-gray-400 mb-6">USKORO</p>
 
-            <h3 className="text-3xl font-bold mb-4 text-yellow-400">Kolači</h3>
-            <p className="text-gray-400">USKORO</p>
+            <h3 className="text-3xl font-bold mt-12 mb-8 text-yellow-400">
+  Kupovi
+</h3>
+
+<div className="space-y-4 text-lg text-gray-300">
+
+{[
+ ['Jagoda','300','/brands/kup.png'],
+ ['Lotus','300','/brands/kup.png'],
+ ['Bueno','300','/brands/kup.png'],
+ ['Triple Chocolate','300','/brands/kup.png']
+].map(([name,price,image]) => (
+
+<div
+ key={name}
+ className="flex justify-between items-center hover:bg-zinc-800/70 px-4 py-3 rounded-2xl transition duration-300 hover:scale-[1.02]"
+>
+
+<div className="flex items-center gap-4">
+
+<img
+ src={image}
+ alt={name}
+ className="w-10 h-10 object-contain"
+/>
+
+<span>{name}</span>
+
+</div>
+
+<span className="text-yellow-400 font-bold">
+ {price}
+</span>
+
+</div>
+
+))}
+
+          </div>
+
+          {/* RIGHT */}
+          <div className="bg-zinc-900 p-10 rounded-3xl shadow-xl">
+            {/* Add right column menu items here if needed */}
           </div>
         </div>
       </section>
