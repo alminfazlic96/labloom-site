@@ -207,7 +207,7 @@ className="w-10 h-10 object-contain"
 
             <div className="space-y-4 text-lg text-gray-300">
   {[
- ['Malinada', '200', '/brands/malinada.png'],
+ ['Malinada', '220', '/brands/malinada.png'],
  ['Ceđena narandža', '300', '/brands/narandza.png'],
  ['Ceđeni mix', '330', '/brands/mix.png']
 ].map(([name, price, image]) => (
