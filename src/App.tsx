@@ -87,10 +87,10 @@ export default function LaBloomCaffeTemplate() {
 <div className="space-y-4 text-lg text-gray-300 mb-10">
 
 {[
-['Espresso','130','/brands/espresso.png'],
-['Nescafe','170','/brands/nescafe.png'],
-['Cappuccino','180','/brands/cappuccino.png'],
-['Topla čokolada','200','/brands/cokolada.png'],
+['Espresso','150','/brands/espresso.png'],
+['Nescafe','200','/brands/nescafe.png'],
+['Cappuccino','220','/brands/cappuccino.png'],
+['Topla čokolada','240','/brands/cokolada.png'],
 ['Čaj (nana/kamilica/voćni)','150','/brands/caj.png']
 ].map(([name,price,image]) => (
 
@@ -125,8 +125,8 @@ className="w-10 h-10 object-contain"
             <div className="space-y-4 text-lg text-gray-300 mb-10">
 
 {[
-['Klasik','500','/brands/nargila.png'],
-['Premium ukus','700','/brands/premium.png']
+['Klasik','600','/brands/nargila.png'],
+['Premium ukus','800','/brands/premium.png']
 ].map(([name,price,image])=>(
 
 <div
@@ -158,20 +158,20 @@ className="w-10 h-10 object-contain"
             <div className="space-y-4 text-lg text-gray-300">
 
 {[
- ['Coca-Cola','200','/brands/cocacola.png'],
-['Coca-Cola Zero','200','/brands/cocacola.png'],
-['Fanta (Orange/ Exotic)','200','/brands/fanta.png'],
-['Sprite','200','/brands/sprite.png'],
-['Schweppes (Bitter / Tangerine)','200','/brands/schweps.png'],
-['Sola (Multivitamin / Ice Tea)','220','/brands/sola.png'],
-['Cube (jagoda / breskva /  borovnica / jabuka)','200','/brands/cube.png'],
-['Ultra','200','/brands/ultra.png'],
-['Guarana','200','/brands/guarana.png'],
-['Cockta','200','/brands/cockta.png'],
+ ['Coca-Cola','220','/brands/cocacola.png'],
+['Coca-Cola Zero','220','/brands/cocacola.png'],
+['Fanta (Orange/ Exotic)','220','/brands/fanta.png'],
+['Sprite','220','/brands/sprite.png'],
+['Schweppes (Bitter / Tangerine)','220','/brands/schweps.png'],
+['Sola (Multivitamin / Ice Tea)','250','/brands/sola.png'],
+['Cube (jagoda / breskva /  borovnica / jabuka)','220','/brands/cube.png'],
+['Ultra','220','/brands/ultra.png'],
+['Guarana','220','/brands/guarana.png'],
+['Cockta','220','/brands/cockta.png'],
 ['Red Bull','350','/brands/redbull.png'],
-['28 Black','280','/brands/28black.png'],
-['Moloko','280','/brands/moloko.png'],
-['Somersby (Jagoda / Zova)','250','/brands/somersby.png'],
+['28 Black','300','/brands/28black.png'],
+['Moloko','300','/brands/moloko.png'],
+['Somersby (Jagoda / Zova)','300','/brands/somersby.png'],
 ['Rosa','150','/brands/rosa.png'],
 ['Kisela','150','/brands/kisela.png'],
 ].map(([name,price,image]) => (
