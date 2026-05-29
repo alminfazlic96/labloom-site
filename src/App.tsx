@@ -77,7 +77,7 @@ export default function LaBloomCaffeTemplate() {
           Meni
         </h2>
 
-        <div className="grid md:grid-cols-2 gap-10">
+        <div  className="max-w-6xl mx-auto"></div>>
           {/* LEFT */}
           <div className="bg-zinc-900 p-10 rounded-3xl shadow-xl">
             <h3 className="text-3xl font-bold mb-8 text-yellow-400">
@@ -274,9 +274,7 @@ className="w-10 h-10 object-contain"
           </div>
 
           {/* RIGHT */}
-          <div className="bg-zinc-900 p-10 rounded-3xl shadow-xl">
-            {/* Add right column menu items here if needed */}
-          </div>
+          
         </div>
       </section>
 
