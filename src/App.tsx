@@ -77,7 +77,7 @@ export default function LaBloomCaffeTemplate() {
           Meni
         </h2>
 
-        <div  className="grid md:grid-cols-1 gap-10">
+        <div className="grid md:grid-cols-2 gap-10">
           {/* LEFT */}
           <div className="bg-zinc-900 p-10 rounded-3xl shadow-xl">
             <h3 className="text-3xl font-bold mb-8 text-yellow-400">
@@ -243,7 +243,7 @@ className="w-10 h-10 object-contain"
  ['Jagoda','300','/brands/kup.png'],
  ['Lotus','300','/brands/kup.png'],
  ['Bueno','300','/brands/kup.png'],
- ['Triple Chocolate','300','/brands/kup.png']
+ ['Triple Chocolate','0','/brands/kup.png']
 ].map(([name,price,image]) => (
 
 <div
@@ -271,7 +271,6 @@ className="w-10 h-10 object-contain"
 
 ))}
 
-</div>
           </div>
 
           {/* RIGHT */}
