@@ -243,7 +243,7 @@ className="w-10 h-10 object-contain"
  ['Jagoda','300','/brands/kup.png'],
  ['Lotus','300','/brands/kup.png'],
  ['Bueno','300','/brands/kup.png'],
- ['Triple Chocolate','0','/brands/kup.png']
+ ['Triple Chocolate','300','/brands/kup.png']
 ].map(([name,price,image]) => (
 
 <div
