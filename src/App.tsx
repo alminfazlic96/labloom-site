@@ -122,35 +122,42 @@ className="w-10 h-10 object-contain"
 💨 Nargile
 </h3>
 
-            <div className="space-y-4 text-lg text-gray-300 mb-10">
+            <div className="space-y-6 text-lg text-gray-300 mb-10">
 
-{[
-['Klasik','600','/brands/nargila.png'],
-['Premium ukus','800','/brands/premium.png']
-].map(([name,price,image])=>(
+  <div className="flex justify-between items-start">
+    <div className="flex items-start gap-3">
+      <img
+        src="/brands/nargila.png"
+        alt="Klasik"
+        className="w-10 h-10 object-contain"
+      />
+      <div>
+        <p>Klasik ukusi</p>
+        <p className="text-sm text-gray-500">
+          Ice Bonbon • Swiss Bonbon • Watermelon • Breskva • Grožđe • Malina • Blue Ice • Menta
+        </p>
+      </div>
+    </div>
+    <span className="text-yellow-400 font-bold">600</span>
+  </div>
 
-<div
-key={name}
-className="flex justify-between items-center"
->
+  <div className="flex justify-between items-start">
+    <div className="flex items-start gap-3">
+      <img
+        src="/brands/premium.png"
+        alt="Premium"
+        className="w-10 h-10 object-contain"
+      />
+      <div>
+        <p>Premium ukusi</p>
+        <p className="text-sm text-yellow-400/70">
+          Afrička Kraljica • Black Nana • Kaktus
+        </p>
+      </div>
+    </div>
+    <span className="text-yellow-400 font-bold">800</span>
+  </div>
 
-<div className="flex items-center gap-3">
-
-<img
-src={image}
-alt={name}
-className="w-10 h-10 object-contain"
-/>
-
-<span>{name}</span>
-
-</div>
-
-<span>{price}</span>
-
-</div>
-
-))}
 
 </div>
 
@@ -170,7 +177,7 @@ className="w-10 h-10 object-contain"
 ['Cockta','220','/brands/cockta.png'],
 ['Red Bull','350','/brands/redbull.png'],
 ['28 Black','250','/brands/28black.png'],
-['Moloko','300','/brands/moloko.png'],
+['Moloko','250','/brands/moloko.png'],
 ['Somersby (Jagoda / Zova)','300','/brands/somersby.png'],
 ['Rosa','150','/brands/rosa.png'],
 ['Kisela','150','/brands/kisela.png'],
